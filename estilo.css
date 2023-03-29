@@ -1,0 +1,154 @@
+html {
+    font-family: Arial Tahoma Sans-Serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .body {
+    background: #ebe39f;
+    margin: 80px 10px 0px;
+  }
+  
+  #header {
+    display: flex;
+    background: #41e75d;
+    width: 100vw;
+    height: 18vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+  }
+  
+  #nav-bar {
+    display: flex;
+    flex-grow: 1;
+    margin: 0px 40px;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+  
+  .nav-link {
+    margin: 3px 30px;
+    text-decoration: none;
+  }
+  
+  #title {
+    font-size: 5rem;
+    text-align: center;
+    padding: 0px;
+    margin-top: 140px;
+    font-weight: bold;
+  }
+  
+  #subtitle {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  #email {
+    max-width: 185px;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+  
+  #form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .p-video {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-bottom: 40px;
+  }
+    
+  #coment {
+    margin: 60px 120px;
+    font-size: 1.6rem;
+  }
+  
+  #header-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 4px;
+    margin: 4px 20px;
+  }
+
+  #imagen {
+    height: 180px;
+    width: auto;
+    border-radius: 4px;
+    margin: 4px 20px;
+  }
+
+  #Card {
+    width: 100%;
+    margin: 60px auto;
+  }
+   
+  #Content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .Cardd {
+    background: #F9F9F9;
+    width: 220px;
+    border: 1px solid #000;
+    border-radius: 6px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+
+  #Price {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #099750;
+  }
+  
+  #link{
+    text-decoration: none;
+  }
+  
+  @media (max-width: 680px) {
+    #Content {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  #copir {
+    margin: 20px 90px;
+  }
+  
+  #link {
+    position: relative;
+    top: -40px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 90px;
+  }
+
+  .foot {
+    background: #8292aa;
+    width: 100vw;
+    height: 16vh;
+    margin: -10px;
+  }
+  
+  @media (max-width: 600px) {
+    #nav-bar {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+    }
+  
+    #video {
+      width: 400px;
+      height: auto;
+    }
+  }
+  

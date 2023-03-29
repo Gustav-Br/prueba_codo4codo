@@ -1,2 +1,2 @@
-# prueba_codo4codo
-una descripcion
+# Pagina-de-prueba
+Pagina de pruba para el curso de de React de Codo a Codo
